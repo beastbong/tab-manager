@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+  
+    "name": "Tab Manager",
+    "description": "It makes working with tabs more convenient.",
+    "version": "1,0",
+  
+    "permissions": [
+      "tabs",
+      "activeTab"
+    ],
+  
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  
+    "browser_action": {
+      "default_icon": "taskManager.png",
+      "default_title": "Tabs",
+      "default_popup": "popup.html"
+    },
+  
+    "content_scripts": [{
+      "css": ["style.css"],
+      "matches": ["<all_urls>"]
+    }]
+  }
+  
