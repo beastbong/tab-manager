@@ -13,7 +13,7 @@
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   
     "browser_action": {
-      "default_icon": "taskManager.png",
+      "default_icon": "tabManager.png",
       "default_title": "Tabs",
       "default_popup": "popup.html"
     },
