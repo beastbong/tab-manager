@@ -1,4 +1,4 @@
-/* formats the area taken by clicking the browser icon*/
+
 #status {
 	white-space: pre;
 	text-overflow: ellipsis;
@@ -6,14 +6,13 @@
 	max-width: 400px;
 }
 
-/*formats the textField for user input*/
 #textField{
 	font-family: "Myriad Pro", "Arial", sans-serif;
     font-size: 100%;
     padding-bottom: 5px;
 }
 
-/*formats the submit button*/
+
 #submitButton {
 	top: 10px;
 	left: 10px;
@@ -27,12 +26,12 @@
 	font-family: arial,sans-serif
 }
 
-/*adjusts spacing between button and text field*/
+
 #buttonDiv {
 	padding-top: 8px;
 }
 
-/*adjusts spacing between "New Tab Name:" and the text field*/
+
 #textFieldDiv {
 	padding-top: 8px;
-}
+} 
