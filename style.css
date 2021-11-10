@@ -1,9 +1,14 @@
 
 #status {
+	
 	white-space: pre;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	max-width: 400px;
+}
+
+#information{
+	text-align: center;
 }
 
 #textField{
@@ -23,7 +28,40 @@
 	background-color: #f2f2f2;
 	font-size: 13px;
 	font-weight: bold;
-	font-family: arial,sans-serif
+	font-family: arial,sans-serif;
+	margin: 3px;
+	margin-left : 25px;
+	display: inline-block;
+}
+#buttonU {
+	top: 10px;
+	left: 10px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	width: 80px ;
+	height: 35px ; 
+	background-color: #f2f2f2;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+	margin: 3px;
+	margin-left : 25px;
+	display: inline-block;
+}
+#buttonT {
+	top: 10px;
+	left: 10px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	width: 80px ;
+	height: 35px ; 
+	background-color: #f2f2f2;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+	margin: 3px;
+	margin-left : 25px;
+	display: inline-block;
 }
 
 
