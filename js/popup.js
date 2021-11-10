@@ -17,7 +17,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       });
     });
+    chrome.tabs.query(queryInfo, function(tabs){
+        submitButton.addEventListener("keydown", function (e) {
+            if (e.keycode === 13) {
+            var newTitle = form.value; 
+            chrome.tabs.executeScript({
+              code: 'document.title=' + JSON.stringify(newTitle)
+        });
+      }
+    });    
   });
+});
+
+
 
 document.addEventListener('DOMContentLoaded', function () {
     var button = document.getElementById('buttonT');
